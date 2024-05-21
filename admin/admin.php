@@ -31,7 +31,7 @@
                     $file = @$_GET['url'];
                     if(empty($file)){
                         echo"<h4>Selamat Datang di halaman Administrator.</h4>";
-                        echo"Aplikasi Pembayaran SPP digunakan untuk mempermudah dalam mencatat pembayaran siswa / siswi di sekolah";
+                        echo"Buku Tamu Sekolah digunakan untuk mempermudah dalam mencatat tamu tamu sekolah";
                     } else {
                         include $file.'.php';
                     }
