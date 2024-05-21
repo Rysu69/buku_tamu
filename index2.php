@@ -10,13 +10,12 @@
     <div class="container mt-5">
         <div class="row justify-content-md-center">
             <div class="col-md-4">
-            <h4 class="text-center">LOGIN ADMIN / PETUGAS</h4>
                 <div class="card">
                     <div class="card-header">
-                        <img src="logo-spp.png" width="100%">
+                    <h4 class="text-center">LOGIN ADMIN / PETUGAS</h4>
                     </div>
                     <div class="card-body">
-                        <form action="proses-login-petugas.php" method="post">
+                        <form action="proses-login.php" method="post">
                             <div class="form-group mb-2">
                                 <label>Username</label>
                                 <input type="text" name="username" class="form-control" placeholder="Masukan Username anda.." required>
@@ -28,7 +27,7 @@
                             <div class="form-group mb-2">
                                 <button type="submit" class="btn btn-primary"> LOGIN </button>
                             </div>
-                            <a href="index.php"> Login Sebagai Siswa </a>
+                            <a href="index.php"> Login Sebagai Tamu </a>
                         </form>
                     </div>
                 </div>

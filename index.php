@@ -10,17 +10,18 @@
     <div class="container mt-5">
         <div class="row justify-content-md-center">
             <div class="col-md-4">
-            <h4 class="text-center">LOGIN SEBAGAI TAMU</h4>
                 <div class="card">
                     <div class="card-header">
-                        <img src="logo-spp.png" width="100%">
+                    <h4 class="text-center">LOGIN SEBAGAI TAMU</h4>
                     </div>
                     <div class="card-body">
                         <form action="proses-login-tamu.php" method="post">
-                            <div class="form-group mb-2">
-                                <button type="submit" class="btn btn-primary"> LOGIN </button>
+                            <div class="form-group mb-2 text-center">
+                                <button type="submit" class="btn btn-primary"> MASUK </button>
                             </div>
+                            <!-- <div class="text-center"> -->
                             <a href="index2.php"> Login Sebagai Administrator / Petugas </a>
+                            <!-- </div> -->
                         </form>
                     </div>
                 </div>
