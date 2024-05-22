@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buku Tamu Sekolah</title>
+    <title>Halaman Data Petugas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+    </style>
 </head>
 <body>
+    
     
     <div class="container mt-5">
         
@@ -19,7 +26,7 @@
         <div class="alert d-flex justify-content-center mb-4 alert-secondary">
             <a href="admin.php" class="btn btn-primary mx-2">Administrator</a>
             <a href="admin.php?url=petugas" class="btn btn-primary mx-2">Admin</a>
-            <a href="admin.php?url=laporan" class="btn btn-primary mx-2">Tamu</a>
+            <a href="admin.php?url=buku" class="btn btn-primary mx-2">Buku Tamu</a>
             <a href="admin.php?url=logout" class="btn btn-danger mx-2">Logout</a>
         </div>
 
@@ -42,6 +49,8 @@
 
     </div>
 
-    <script src="../js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

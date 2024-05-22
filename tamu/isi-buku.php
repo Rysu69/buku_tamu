@@ -12,18 +12,29 @@
         }
     </style>
 </head>
-<body></body>
-<h5>Halaman Tambah Petugas.</h5>
-<a href="?url=petugas" class="btn btn-primary"> <i class="fa fa-arrow-left"></i>KEMBALI </a>
+<body>
+<h5>Isi Buku Tamu.</h5>
 <hr>
-<form action="?url=proses-tambah-petugas" method="post">
+<form action="?url=proses-isi-buku" method="post">
     <div class="form-group mb-2">
-        <label>Username</label>
-        <input type="text" name="username" class="form-control" required>
+        <label>Nama</label>
+        <input type="text" name="nama" class="form-control" required>
     </div>
     <div class="form-group mb-2">
-        <label>password</label>
-        <input type="text" name="password" class="form-control" required>
+        <label>Email / NoTelp</label>
+        <input type="text" name="hubung" class="form-control" required>
+    </div>
+    <div class="form-group mb-2">
+        <label>Asal</label>
+        <input type="text" name="asal" class="form-control" required>
+    </div>
+    <div class="form-group mb-2">
+        <label>Pekerjaan</label>
+        <input type="text" name="pekerjaan" class="form-control" required>
+    </div>
+    <div class="form-group mb-2">
+        <label>Keperluan</label>
+        <input type="text" name="keperluan" class="form-control" required>
     </div>
     <div class="form-group">
  <button class="btn btn-success" type="submit"> <i class="fas fa-edit"></i> SIMPAN </button>
